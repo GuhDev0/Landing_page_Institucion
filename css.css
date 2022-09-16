@@ -13,7 +13,11 @@
 body{
     font-family: var(--FontPrincipal);
 }
-
+.linha{
+    height: 3px;
+    background-color: var(--color3);
+    
+}
 .cabecalho{
     background-color: var(--color1);
     color: var(--color2);
@@ -71,7 +75,7 @@ body{
 .bloco1{
     background-image: url(Imagens/team.png);
     text-align: center;
-   padding-bottom: 150px;
+   padding-bottom: 205px;
    background-repeat: no-repeat;
    
     
@@ -92,5 +96,62 @@ body{
     font-size: 20px;
     
 }
+.bloco2 {
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 20px;
+    
+   
+}
+.bloco2 h2{
+    padding-left: 30px;
+    font-size: 23px;
+}
+.container ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;  
+}
+.container li img{
+    width: 150px;
+    margin: 80px auto 150px auto;
+    position: relative;
+    left: 44px;
+    
+    
+}
+.container li p{
+    width: 218px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top:-110px;
+}
+.container li h3{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: -130px;
+    left: 15px;
+}
 
-
+footer p{
+    text-align: center;
+    align-items: center;
+    background-color: var(--color3);
+    color: var(--color2);
+    font:bolder 20px var(--fontTerceira);
+    
+   
+}
+footer a{
+    text-decoration: none;
+}
+ 
+footer a:visited{
+    color: var(--color2);
+    
+}
+footer a:hover{
+    text-decoration: underline;   
+} 
